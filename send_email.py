@@ -4,6 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
+#Thi is email module
+
 email_user = 'tvfrahul@gmail.com'
 email_password = 'rahul.linkinpark@007'
 email_send = 'tvfrahul@gmail.com'
