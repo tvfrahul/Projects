@@ -36,7 +36,7 @@ for index in range(1,rows):
                 read_data1 =new_xml.read()
             with open(filename,'w+') as new_xml:
                 new_xml.write(read_data1.replace(old_data[count],final_data[count]))
-    send_mail.send_email(filename)
-	#using send email module
+    #send_mail.send_email(filename)
+	#uncomment and enable above line to send mail
 
 
