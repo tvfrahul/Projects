@@ -2,6 +2,7 @@ import os
 import random
 import send_mail
 
+#opening test data csv file
 with open('testdata.csv','r') as testdata:
     data = testdata.read()
 split_list = data.splitlines()
